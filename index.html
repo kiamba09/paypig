@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serve Kiamba - Paypig Tribute</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+      color: #f1c3e6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .paypal-button {
+      background: #ffc439;
+      color: #111;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .paypal-button:hover {
+      background: #ffb300;
+    }
+    .talk-box, .chat-placeholder {
+      margin-top: 3rem;
+      border-top: 1px solid #f1c3e666;
+      padding-top: 2rem;
+    }
+    textarea {
+      width: 90%;
+      max-width: 600px;
+      height: 120px;
+      padding: 1rem;
+      margin-top: 1rem;
+      font-size: 1rem;
+      border-radius: 12px;
+      border: none;
+      resize: vertical;
+    }
+    .submit-button {
+      margin-top: 1rem;
+      padding: 0.6rem 1.4rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #f1c3e6;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .paypal-button {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Serve Kiamba</h1>
+    <p>Worship begins with tribute. Obedient pigs pay. The rest vanish.</p>
+
+    <a class="paypal-button"
+      href="https://www.paypal.com/donate?business=vabrisbane@outlook.com&currency_code=AUD&item_name=Tribute+to+Kiamba"
+      target="_blank">Pay Tribute via PayPal</a>
+
+    <div class="talk-box">
+      <h2>Talk to Me</h2>
+      <p>Whimper, confess, or beg. I might listen.</p>
+      <form action="https://formspree.io/f/xyzjpggv" method="POST">
+        <textarea name="message" placeholder="Your tribute message..." required></textarea><br />
+        <input type="email" name="_replyto" placeholder="Your email (optional)" style="margin-top: 0.5rem; padding: 0.5rem; border-radius: 8px;"><br />
+        <button class="submit-button" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="chat-placeholder">
+      <h2>Live Chat</h2>
+      <p>Your messages are monitored. Choose your words wisely.</p>
+    </div>
+  </div>
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/684f966dbe9daf191026f5e2/1itre7796';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+</html>
